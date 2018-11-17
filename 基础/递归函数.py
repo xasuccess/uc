@@ -10,7 +10,7 @@ def fun(a):
 
 for a in range(1,10):
     if fun(a)<35:
-        if fun(a)%2 == 0:
+        if fun(a)%2 == 1:
             print(fun(a), end=" ")
     else:
         print(fun(a), end=" ")
