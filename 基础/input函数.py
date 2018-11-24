@@ -10,3 +10,6 @@ elif gender == "女":
     print("我们一起学猫叫，一起喵喵喵喵")
 else:
     print("滚蛋")
+
+for i in range(1,9):
+    print(i, end=" ")
