@@ -13,3 +13,14 @@ else:
 
 for i in range(1,9):
     print(i, end=" ")
+print("")
+
+num = input("随便输入些啥：")
+if num == "A":
+    print("good")
+elif num == "丁灵":
+    print("{0}他是个帅哥".format(num))
+else:
+    print("bad")
+
+help(input)
