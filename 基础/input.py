@@ -15,12 +15,14 @@ for i in range(1,9):
     print(i, end=" ")
 print("")
 
-num = input("随便输入些啥：")
-if num == "A":
-    print("good")
-elif num == "丁灵":
-    print("{0}他是个帅哥".format(num))
-else:
-    print("bad")
+for j in range(1,6):
+    num = input("{0}、随便输入些啥：".format(j))
+    if num == "A":
+        print("good")
+    elif num == "丁灵":
+        print("{0}他是个帅哥".format(num))
+        break  #break终止函数
+    else:
+        print("bad")
 
 help(input)
